@@ -1,10 +1,5 @@
 //ブレイクポイントの設定
 @mixin breakpoint( $point ) {
-    @if $point == tablet {
-        @media ( min-width: 641px ) {
-            @content ;
-        }
-    }
     @if $point == pc {
         @media ( min-width: 1000px ) {
             @content ;
@@ -17,6 +12,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: $weight;
 }
+
 //ルートサイズの調整
 :root {
     font-size: 62.5%;
@@ -33,6 +29,4 @@ body {
     font-family: 'Noto Sans JP', Arial;
     overflow-x: hidden;
     position: relative;
-    background-color: #FAE98D;
-    color: #1d1d1d;
 }
