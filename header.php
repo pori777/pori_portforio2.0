@@ -39,10 +39,10 @@
         <nav class="p-gnavi js-hamburger">
             <ul class="list">
                 <li><a href="<?php $url = home_uri('/'); ?>">TOP</a></li>
-                <li><a href="https://poriporipori.com/#about">about</a></li>
-                <li><a href="<?php echo get_page_link( $id );?>">works</a></li>
-                <li><a href="<?php echo get_page_link( $id );?>">blog</a></li>
-                <li><a href="https://poriporipori.com/#contact">contact</a></li>
+                <li><a href="https://poriporipori.com/#about">ABOUT</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">WORKS</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">BLOG</a></li>
+                <li><a href="https://poriporipori.com/#contact">CONTACT</a></li>
             </ul>
             <button class="p-hamburger js-hamburger--bt">
                 <span>menuボタン</span>
