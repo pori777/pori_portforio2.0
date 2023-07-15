@@ -34,6 +34,18 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header>
-        
+    <header role="banner" class="l-header">
+        <h1>PORI</h1>
+        <nav class="p-gnavi js-hamburger">
+            <ul class="list">
+                <li><a href="<?php $url = home_uri('/'); ?>">TOP</a></li>
+                <li><a href="https://poriporipori.com/#about">about</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">works</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">blog</a></li>
+                <li><a href="https://poriporipori.com/#contact">contact</a></li>
+            </ul>
+            <button class="p-hamburger js-hamburger--bt">
+                <span>menuボタン</span>
+            </button>
+        </nav>
     </header>

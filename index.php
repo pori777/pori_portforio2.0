@@ -33,3 +33,40 @@
     <title>pori_portfolio</title>
     <?php wp_head(); ?>
 </head>
+<body>
+    <header role="banner" class="l-header">
+        <h1>PORI</h1>
+        <nav class="p-gnavi js-hamburger">
+            <ul class="list">
+                <li><a href="<?php $url = home_uri('/'); ?>">TOP</a></li>
+                <li><a href="https://poriporipori.com/#about">about</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">works</a></li>
+                <li><a href="<?php echo get_page_link( $id );?>">blog</a></li>
+                <li><a href="https://poriporipori.com/#contact">contact</a></li>
+            </ul>
+            <button class="p-hamburger js-hamburger--bt">
+                <span>menuボタン</span>
+            </button>
+        </nav>
+    </header>
+    <article id="mainvisual" class="p-mainvisual">
+
+    </article>
+    <section id="works" class="p-section--post">
+
+    </section>
+    <section id="blog" class="p-section--post">
+
+    </section>
+    <section id="contact" class="p-section--contact">
+
+    </section>
+    <footer class="l-footer">
+
+    </footer>
+    <script src="https://kit.fontawesome.com/8e9a187939.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/script.js"></script>
+    <?php wp_footer(); ?>
+</body>
+</html>
