@@ -1,7 +1,7 @@
 jQuery( function () {
     let timer = 0;
-    jQuery( ".js-hamburger--bt" ).click( function() {
-        jQuery( this ).toggleClass( "is-open" );
+    jQuery( ".js-hamburger--bt" ).on('click' , function() {
+        jQuery( ".js-hamburger--bt" ).toggleClass( "is-open" );
         jQuery( ".js-hamburger" ).toggleClass( "is-open" );
         jQuery( "body" ).toggleClass( "is-open" );
     })
