@@ -49,7 +49,6 @@
             </button>
         </nav>
     </header>
-<?php get_header() ;?>
     <article id="mainvisual" class="p-mainvisual">
         <div class="p-mainvisual__ttlset">
 
