@@ -1,11 +1,11 @@
 jQuery( function () {
     let timer = 0;
-    $( ".js-hamburger--bt" ).click( function() {
-        $( this ).toggleClass( "is-open" );
-        $( ".js-hamburger" ).toggleClass( "is-open" );
-        $( "body" ).toggleClass( "is-open" );
+    jQuery( ".js-hamburger--bt" ).click( function() {
+        jQuery( this ).toggleClass( "is-open" );
+        jQuery( ".js-hamburger" ).toggleClass( "is-open" );
+        jQuery( "body" ).toggleClass( "is-open" );
     })
-    $( window ).on( "resize", function() {
+    jQuery( window ).on( "resize", function() {
         let pcWidth = 769;
         if( timer > 0 ) {
             clearTimeout( timer );
@@ -15,9 +15,9 @@ jQuery( function () {
             //現在のwindow幅がpcWidthよりも大きくなったら.is-openが外れる操作
             let resizedWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             if( resizedWidth >= pcWidth ) {
-                $( ".js-hamburger--bt" ).removeClass( ".is-open" );
-                $( ".js-hamburger" ).removeClass( ".is-open" );
-                $( "body" ).removeClass( ".is-open" );
+                jQuery( ".js-hamburger--bt" ).removeClass( ".is-open" );
+                jQuery( ".js-hamburger" ).removeClass( ".is-open" );
+                jQuery( "body" ).removeClass( ".is-open" );
             }
         }, 200 );
     })
