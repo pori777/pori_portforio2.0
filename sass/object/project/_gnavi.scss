@@ -35,7 +35,7 @@
                 width:         auto;
                 margin:        inherit;
                 margin-bottom: 0px;
-                font-size:     1.2rem;
+                font-size:     1.5rem;
                 text-align: left;
             }
             a {
@@ -43,10 +43,11 @@
                     color: #1d1d1d;
                 }
                 &:hover, &:active {
-                    color: #555;
+                    color: #ededed;
                 }
                 text-decoration: none;
                 @include breakpoint ( pc ) {
+                    color: #fff;
                     margin-right: 20px;
                     font-weight:  normal;
                     white-space:  nowrap;
