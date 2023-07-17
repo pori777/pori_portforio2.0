@@ -157,7 +157,7 @@
     </section>
     <section id="contact" class="p-section--contact">
         <h2 class="c-section-ttlset">CONTACT</h2>
-            <?php echo do_shortCode('[contact-form-7 id="44" title="コンタクトフォーム"]')?>
+        <?php echo do_shortCode('[contact-form-7 id="44" title="コンタクトフォーム"]')?>
     </section>
     <footer class="l-footer">
         <nav>
