@@ -61,4 +61,14 @@
             }
         }
     }
+    &.is-open {
+        > .list {
+            display:  flex;
+            position: fixed;
+            left:     0;
+            @include breakpoint ( pc ) {
+                position: static;
+            }
+        }
+    }
 }
