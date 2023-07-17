@@ -6,7 +6,7 @@ $btnHeight: 1px;
 .p-hamburger {
     width: 60px;//hamburgerIconの枠
     height: 60px;
-    background-color: base.$accent;
+    background-color: rgb(107, 106, 106);
     position:         relative;
     border:           0;
     @include breakpoint ( pc ) {
