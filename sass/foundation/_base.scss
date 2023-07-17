@@ -1,7 +1,7 @@
 //ブレイクポイントの設定
 @mixin breakpoint( $point ) {
     @if $point == pc {
-        @media ( min-width: 1000px ) {
+        @media ( min-width: 767px ) {
             @content ;
         }
     }
