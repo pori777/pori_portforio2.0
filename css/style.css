@@ -27,6 +27,10 @@ body {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
 /*
  * layout
  */
@@ -50,6 +54,10 @@ body {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
 .l-header {
   position: fixed;
   width: 100%;
@@ -103,6 +111,61 @@ body {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
+.c-section-ttlset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007bb3;
+  font-size: 2.75rem;
+}
+@media (min-width: 767px) {
+  .c-section-ttlset {
+    font-size: 3.25rem;
+  }
+}
+.c-section-ttlset::before {
+  content: "";
+  width: 55px;
+  height: 2px;
+  margin-right: 20px;
+  background-color: #007bb3;
+}
+.c-section-ttlset::after {
+  content: "";
+  width: 55px;
+  height: 2px;
+  margin-left: 20px;
+  background-color: #007bb3;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 350px;
+  width: 100%;
+  font-family: "Noto Sans JP", Arial;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
 .p-gnavi .list {
   width: 100vw;
   height: 100vh;
@@ -197,6 +260,10 @@ body {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
 .p-hamburger {
   width: 60px;
   height: 60px;
