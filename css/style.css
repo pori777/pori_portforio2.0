@@ -250,4 +250,26 @@ body {
 }
 .p-hamburger.is-open > span {
   background: none;
+}
+
+.p-mainvisual {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: url("../img/pedro-henrique-santos-4IoS45J9pmk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 50px;
+  top: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+@media (min-width: 767px) {
+  .p-mainvisual {
+    height: calc(100vh - 120px);
+    margin-bottom: 120px;
+    top: 120px;
+  }
 }/*# sourceMappingURL=style.css.map */
