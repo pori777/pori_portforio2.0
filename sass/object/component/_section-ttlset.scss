@@ -1,0 +1,25 @@
+@use "../../foundation/base";
+.c-section-ttlset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: base.$accent;
+    font-size: 2.75rem;
+    @include breakpoint( pc ) {
+        font-size: 3.25rem;
+    }
+    &::before{
+        content: '';
+        width: 55px;
+        height: 2px;
+        margin-right: 20px;
+        background-color: base.$accent;
+    }
+    &::after{
+        content: '';
+        width: 55px;
+        height: 2px;
+        margin-left: 20px;
+        background-color: base.$accent;
+    }
+}
