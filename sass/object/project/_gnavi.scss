@@ -39,12 +39,7 @@
                 text-align: left;
             }
             a {
-                &:link, &:visited {
-                    color: #1d1d1d;
-                }
-                &:hover, &:active {
-                    color: #ededed;
-                }
+                color: #1d1d1d;
                 text-decoration: none;
                 @include breakpoint ( pc ) {
                     color: #fff;
