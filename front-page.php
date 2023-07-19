@@ -1,8 +1,7 @@
 <?php get_header() ;?>
+    <p class="pageTop only_pc"><a href="#wrap" class="pageTop__bg"><i class="fas fa-angle-up pageTop__button 2x"></i></a></p>
     <article id="mainvisual" class="p-mainvisual">
-        <div class="p-mainvisual__ttlset">
-
-        </div>
+        <div class="p-mainvisual__ttlset"></div>
     </article>
     <section id="about" class="p-section--about">
         <h2 class="c-section-ttlset">ABOUT</h2>
