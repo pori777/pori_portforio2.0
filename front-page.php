@@ -49,7 +49,9 @@
                 <?php while ($the_query->have_posts()):$the_query->the_post(); ?>
                 <li>
                     <a href="<?php the_permalink(); ?>">
-                        <img src="<?php echo CFS()->get('thumbnail') ;?>" alt="サンプル画像">
+                        <div>
+                            <img src="<?php echo CFS()->get('thumbnail') ;?>" alt="サンプル画像">
+                        </div>
                         <div>
                             <time><?php echo get_the_date('Y.m.d')?></time>
                             <p><?php echo CFS()->get('title') ;?></p>
@@ -84,7 +86,9 @@
                 <?php while ($the_query->have_posts()):$the_query->the_post(); ?>
                 <li>
                     <a href="<?php the_permalink(); ?>">
-                        <img src="<?php echo CFS()->get('thumbnail') ;?>" alt="サンプル画像">
+                        <div>
+                            <img src="<?php echo CFS()->get('thumbnail') ;?>" alt="サンプル画像">
+                        </div>
                         <div>
                             <time><?php echo get_the_date('Y.m.d')?></time>
                             <p><?php echo CFS()->get('title') ;?></p>
