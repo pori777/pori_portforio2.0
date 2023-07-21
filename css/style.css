@@ -544,6 +544,30 @@ li {
   }
 }
 
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 350px;
+  width: 100%;
+  font-family: "Noto Sans JP", Arial;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+li {
+  list-style-type: none;
+}
+
 .p-section, .p-section--contact, .p-section--post, .p-section--about {
   padding-top: 90px;
   margin-top: -30px;
@@ -563,4 +587,64 @@ li {
     justify-content: center;
     align-items: center;
   }
+}
+.p-section--post {
+  padding-bottom: 35px;
+}
+.p-section--post ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  .p-section--post ul {
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    align-items: inherit;
+  }
+}
+.p-section--post ul li {
+  padding-top: 45px;
+  width: 85%;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  .p-section--post ul li {
+    padding-top: 35px;
+    width: calc((100% - 120px) / 3);
+    align-items: inherit;
+  }
+}
+.p-section--post ul li a {
+  display: block;
+  color: #474554;
+  text-decoration: none;
+}
+.p-section--post ul li a:hover p {
+  text-decoration: underline;
+}
+.p-section--post ul li a:hover img {
+  transform: scale(1.1);
+}
+.p-section--post ul li a div:first-child {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.p-section--post ul li a div:first-child img {
+  width: 100%;
+  height: 52.65%;
+  transition: all ease 0.3s;
+}
+.p-section--post ul li a div:nth-child(2) {
+  background-color: #fff;
+  padding: 15px;
+}
+.p-section--post ul li a div:nth-child(2) time {
+  font-size: 1.2rem;
+}
+.p-section--post ul li a div:nth-child(2) > p {
+  font-size: 1.5rem;
+  padding-bottom: 7.5px;
 }/*# sourceMappingURL=style.css.map */
