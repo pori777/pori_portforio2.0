@@ -21,9 +21,6 @@
     <meta name="twitter:title" content="poriのポートフォリオサイトです。主にWeb制作を中心に制作しています。制作実績やブログを発信しております。">
     <!--ファビコンの設定-->
     <link rel="shortcut icon" href="./img/meta/favicon.ico" type="image/x-icon">
-    <!--stylesheet-->
-        <!--reset.css-->
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ;?>/css/reset.min.css">
     <!--googleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
