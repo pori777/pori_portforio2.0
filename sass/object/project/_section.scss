@@ -1,0 +1,25 @@
+.p-section {
+    padding-top: 90px;
+    margin-top: -30px;
+    @include breakpoint( pc ) {
+        padding-top: 120px;
+        margin-top: -60px;
+    }
+    &--about {
+        @extend .p-section;
+        > ul {
+            margin: 0 auto 15px;
+            @include breakpoint ( pc ) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    &--post {
+        @extend .p-section;
+    }
+    &--contact {
+        @extend .p-section;
+    }
+}
