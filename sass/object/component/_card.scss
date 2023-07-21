@@ -46,6 +46,18 @@
                 @include breakpoint( pc ) {
                     text-align: inherit;
                 }
+                > i {
+                    padding-left: 7.5px;
+                }
+                .fa-twitter{
+                    color: #1DA1F2;
+                }
+                .fa-instagram{
+                    color: #E4405F;
+                }
+                .fa-github{
+                    color: #000;
+                }
             }
         }
     }

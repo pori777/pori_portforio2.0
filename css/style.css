@@ -332,6 +332,18 @@ li {
     text-align: inherit;
   }
 }
+.c-card--about > ul li > i {
+  padding-left: 7.5px;
+}
+.c-card--about > ul li .fa-twitter {
+  color: #1DA1F2;
+}
+.c-card--about > ul li .fa-instagram {
+  color: #E4405F;
+}
+.c-card--about > ul li .fa-github {
+  color: #000;
+}
 
 :root {
   font-size: 62.5%;
