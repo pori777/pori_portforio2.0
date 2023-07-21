@@ -35,7 +35,7 @@
         <h1>PORI</h1>
         <nav class="p-gnavi js-hamburger">
             <ul class="list">
-                <li><a href="<?php echo esc_url( home_url('「"」があっても大丈夫') ); ?>">TOP</a></li>
+                <li><a href="<?php echo esc_url( home_url('') ); ?>">TOP</a></li>
                 <li><a href="https://poriporipori.com/#about">ABOUT</a></li>
                 <li><a href="<?php echo get_page_link( 113 );?>">WORKS</a></li>
                 <li><a href="<?php echo get_page_link( 110 );?>">BLOG</a></li>
