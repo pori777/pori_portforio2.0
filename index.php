@@ -111,11 +111,11 @@
             </ul>
             <?php else : ?>
             <?php endif ;?>
-            <button>
+            <div class="c-button--post">
                 <a href="<?php echo get_page_link( 113 );?>">
                     <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
                 </a>
-            </button>
+            </div>
         </div>
     </section>
     <section id="blog" class="p-section--post">
@@ -148,11 +148,11 @@
             </ul>
             <?php else : ?>
             <?php endif ;?>
-            <button>
+            <div class="c-button--post">
                 <a href="<?php echo get_page_link( 113 );?>">
                     <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
                 </a>
-            </button>
+            </div>
         </div>
     </section>
     <section id="contact" class="p-section--contact">
