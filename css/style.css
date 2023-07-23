@@ -418,8 +418,7 @@ a {
   color: #fff;
   text-decoration: none;
 }
-
-input {
+.c-button--contact input {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -434,14 +433,14 @@ input {
   transition: all 0.15s;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
-input:hover {
+.c-button--contact input:hover {
   margin-top: 3px;
   color: #fff;
   background-color: #0484c0;
   border-bottom: 2px solid #035d86;
 }
 @media (min-width: 767px) {
-  input {
+  .c-button--contact input {
     width: auto;
   }
 }
@@ -856,7 +855,7 @@ input {
   input {
     width: 100%;
     margin: 5px 20px;
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
