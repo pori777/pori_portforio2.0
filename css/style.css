@@ -423,7 +423,7 @@ a {
 .c-card--about > ul {
   width: 400px;
   padding: 1.75rem 4.75rem;
-  background-image: radial-gradient(rgb(220, 220, 220) 30%, transparent 30%);
+  background-image: radial-gradient(rgb(240, 240, 240) 30%, transparent 30%);
   background-size: 5px 5px;
   border-radius: 10px;
   margin-left: 0;
