@@ -8,6 +8,7 @@
         p {
             display: inline-block;
             position: relative;
+            cursor: pointer;
             font-size: 1.25rem;
             padding: 1em 2.5em;
             background-color: base.$accent;
@@ -29,14 +30,18 @@
             }
         }
     }
+    //contactForm7のボタン
     &--contact {
-        //contactForm7のボタン
-        input{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 30px;
+        input {
             position: relative;
             display: inline-block;
             cursor: pointer;
             font-size: 1.25rem;
-            width: 100%;
+            width: 125px;
             padding: 1em 2.5em;
             margin: 0;
             background-color: base.$accent;
@@ -52,8 +57,12 @@
                 border-bottom: 2px solid #035d86;
             }
             @include breakpoint ( pc ) {
-                width: auto;
+                width: 150px;
             }
+        }
+        .wpcf7-spinner {
+            margin: 0 auto;
+            display: block;
         }
     }
 }

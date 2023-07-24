@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
+    width: 90%;
     &__table{
         width: 100%;
         border-collapse:collapse;
@@ -49,18 +50,15 @@
 
 input{
     font-size: 1.4rem;
-    width: 75%;
+    width: 90%;
     padding: 15px 10px;
     margin: 5px 10px;
     border-radius: 6.5px;
     border: 1px solid #ccc;
     background-color: #fff;
     appearance: none;
-    max-width: 150px;
     @include breakpoint ( pc ){
-        width: 100%;
         margin: 5px 20px;
-        max-width: 350px;
     }
 }
 textarea{
@@ -92,10 +90,10 @@ textarea{
     reCaptcha関連
 ------------------------------------------*/
 .reCaptcha{
-    padding-top: 35px;
-    font-size: 1.4rem;
+    padding-top: 10px;
+    font-size: 1rem;
     @include breakpoint ( pc ){
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
 //reCaptchaのアイコンを非表示にする
