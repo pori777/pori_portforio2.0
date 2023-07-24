@@ -1,0 +1,14 @@
+@use "../../foundation/base";
+.breadCrumbs{
+    display: flex;
+    color: base.$accent;
+    margin: 0px 25px;
+    padding: 25px 0px;
+    li {
+        font-size: 1.5rem;
+        padding-right: 15px;
+        @include breakpoint ( pc ){
+            font-size: 1.8rem;
+        }
+    }
+}
