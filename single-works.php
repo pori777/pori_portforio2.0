@@ -3,7 +3,7 @@
         <div class="p-mainvisual__ttlset"></div>
     </article>
     <section id="works" class="p-section--single">
-        <h2 class="c-section-ttlset">BLOG</h2>
+        <h2 class="c-section-ttlset">WORKS</h2></h2>
         <div>
             <nav>
                 <ul class="breadCrumbs">
