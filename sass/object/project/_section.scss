@@ -80,4 +80,40 @@
     &--contact {
         @extend .p-section;
     }
+    &--single {
+        > div {
+            padding-bottom: 25px;
+            @include breakpoint ( pc ) {
+                padding-bottom: 0;
+            }
+            > div {
+                background-color: #fff;
+                padding: 35px;
+                time {
+                    font-size: 1.6rem;
+                    padding-bottom: 2.5px;
+                }
+                p {
+                    font-size: 2.1rem;
+                    padding-bottom: 17.5px;
+                }
+                img {
+                    width: 100%;
+                    padding-bottom: 20px;
+                }
+                div {
+                    font-size: 1.8rem;
+                    padding-bottom: 10px;
+                }
+                div:nth-child( 2 ) {
+                    display: block;
+                    a {
+                        text-decoration: none;
+                        color: base.$accent;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
 }
