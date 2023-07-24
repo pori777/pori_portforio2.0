@@ -3,9 +3,12 @@
 .p-section {
     padding-top: 90px;
     margin-top: -30px;
+    width: 94%;
+    margin: 0 auto;
     @include breakpoint( pc ) {
         padding-top: 120px;
         margin-top: -60px;
+        width: 80%;
     }
     &--about {
         @extend .p-section;
@@ -91,20 +94,16 @@
                 background-color: #fff;
                 padding: 35px;
                 time {
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                     padding-bottom: 2.5px;
                 }
                 p {
-                    font-size: 2.1rem;
+                    font-size: 1.65rem;
                     padding-bottom: 17.5px;
                 }
                 img {
                     width: 100%;
                     padding-bottom: 20px;
-                }
-                div:first-child {
-                    font-size: 1.8rem;
-                    padding-bottom: 10px;
                 }
                 div {
                     display: block;
@@ -112,6 +111,7 @@
                         text-decoration: none;
                         color: base.$accent;
                         font-size: 1.6rem;
+                        word-break: break-all;
                     }
                 }
             }
