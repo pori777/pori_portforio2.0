@@ -890,6 +890,7 @@ a {
   }
 }
 .p-section--single > div > div {
+  color: #474554;
   background-color: #fff;
   padding: 35px;
 }
