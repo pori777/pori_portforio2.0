@@ -10,5 +10,8 @@
         @include breakpoint ( pc ){
             font-size: 1.8rem;
         }
+        a {
+            color: #fff;
+        }
     }
 }
