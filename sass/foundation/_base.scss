@@ -29,6 +29,7 @@ body {
     font-family: 'Noto Sans JP', Arial;
     overflow-x: hidden;
     position: relative;
+    background-color: #fffff6;
 }
 
 /*--------------------------------------------
@@ -46,4 +47,5 @@ li {
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
