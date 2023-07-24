@@ -14,6 +14,7 @@
         width: 30%;
         background-color: base.$contact_th;
         border: 1px solid #ccc;
+        color: base.$text;
         padding: 20px 0px 20px 10px;
         font-size: 1.4rem;
         @include breakpoint ( pc ) {
@@ -92,6 +93,7 @@ textarea{
 .reCaptcha{
     padding-top: 10px;
     font-size: 1rem;
+    color: base.$text;
     @include breakpoint ( pc ){
         font-size: 1.4rem;
     }
