@@ -112,7 +112,7 @@
             <?php else : ?>
             <?php endif ;?>
             <div class="c-button--post">
-                <a href="<?php echo get_page_link( 113 );?>">
+                <a href="https://poriporipori.com/works">
                     <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
                 </a>
             </div>
@@ -149,7 +149,7 @@
             <?php else : ?>
             <?php endif ;?>
             <div class="c-button--post">
-                <a href="<?php echo get_page_link( 110 );?>">
+                <a href="https://poriporipori.com/blog">
                     <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
                 </a>
             </div>

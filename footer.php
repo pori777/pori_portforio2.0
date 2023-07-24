@@ -2,8 +2,8 @@
         <nav>
             <ul>
                 <li><a href="https://poriporipori.com/#about">ABOUT</a></li>
-                <li><a href="<?php echo get_page_link( 113 );?>">WORKS</a></li>
-                <li><a href="<?php echo get_page_link( 110 );?>">BLOG</a></li>
+                <li><a href="https://poriporipori.com/works">WORKS</a></li>
+                <li><a href="https://poriporipori.com/blog">BLOG</a></li>
                 <li><a href="https://poriporipori.com/#contact">CONTACT</a></li>
             </ul>
         </nav>
