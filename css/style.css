@@ -398,6 +398,7 @@ a {
 .c-button--post p {
   display: inline-block;
   position: relative;
+  cursor: pointer;
   font-size: 1.25rem;
   padding: 1em 2.5em;
   background-color: #007bb3;
@@ -418,12 +419,18 @@ a {
   color: #fff;
   text-decoration: none;
 }
+.c-button--contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 30px;
+}
 .c-button--contact input {
   position: relative;
   display: inline-block;
   cursor: pointer;
   font-size: 1.25rem;
-  width: 100%;
+  width: 125px;
   padding: 1em 2.5em;
   margin: 0;
   background-color: #007bb3;
@@ -441,8 +448,12 @@ a {
 }
 @media (min-width: 767px) {
   .c-button--contact input {
-    width: auto;
+    width: 150px;
   }
+}
+.c-button--contact .wpcf7-spinner {
+  margin: 0 auto;
+  display: block;
 }
 
 :root {
@@ -793,6 +804,7 @@ a {
   flex-direction: column;
   justify-content: center;
   padding-top: 50px;
+  width: 90%;
 }
 .contact__table {
   width: 100%;
@@ -840,7 +852,7 @@ a {
 
 input {
   font-size: 1.4rem;
-  width: 75%;
+  width: 90%;
   padding: 15px 10px;
   margin: 5px 10px;
   border-radius: 6.5px;
@@ -849,13 +861,10 @@ input {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  max-width: 150px;
 }
 @media (min-width: 767px) {
   input {
-    width: 100%;
     margin: 5px 20px;
-    max-width: 350px;
   }
 }
 
@@ -890,12 +899,12 @@ textarea {
     reCaptcha関連
 ------------------------------------------*/
 .reCaptcha {
-  padding-top: 35px;
-  font-size: 1.4rem;
+  padding-top: 10px;
+  font-size: 1rem;
 }
 @media (min-width: 767px) {
   .reCaptcha {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 
