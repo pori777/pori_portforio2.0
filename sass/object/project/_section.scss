@@ -81,6 +81,7 @@
         @extend .p-section;
     }
     &--single {
+        @extend .p-section;
         > div {
             padding-bottom: 25px;
             @include breakpoint ( pc ) {
@@ -101,11 +102,11 @@
                     width: 100%;
                     padding-bottom: 20px;
                 }
-                div {
+                div:first-child {
                     font-size: 1.8rem;
                     padding-bottom: 10px;
                 }
-                div:nth-child( 2 ) {
+                div {
                     display: block;
                     a {
                         text-decoration: none;
