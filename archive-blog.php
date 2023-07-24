@@ -32,11 +32,6 @@
             </ul>
             <?php else : ?>
             <?php endif ;?>
-            <div class="c-button--post">
-                <a href="<?php echo get_page_link( 110 );?>">
-                    <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
-                </a>
-            </div>
         </div>
     </section>
 <?php get_footer() ;?>
