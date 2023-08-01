@@ -63,7 +63,7 @@
             display:  flex;
             position: fixed;
             left:     0;
-            @include breakpoint ( pc ) {
+            @include breakpoint ( sp ) {
                 position: static;
             }
         }
